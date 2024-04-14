@@ -1,4 +1,12 @@
-#### I created a simple random word api
++++
+title = 'Random Word API'
+date = 2024-04-15T13:02:04+10:00
+draft = false
++++
+
+### I created a simple random word api
+
+---
 
 To use it send a post request to this url:
 
