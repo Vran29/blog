@@ -1,0 +1,319 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=49235&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Effortlessly Manage Docker With Portainer: A Step by Step Guide - Eason Li</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="Portainer: A Web UI for Docker Management
+Portainer is a web UI tool for Docker that allows you to manage Docker containers, Kubernetes clusters, and Docker Compose stacks all in one convenient interface. In this blog post, I&rsquo;ll show you how to install Portainer using Docker.
+Prerequisites
+Ensure Docker is installed and running on your system. You&rsquo;ll need root privileges to create the Docker volume. (Optional) Configure a firewall whitelist rule for Portainer&rsquo;s access (if applicable)." />
+  <meta name="author" content="Eason Li" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://localhost:49235/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://localhost:49235/theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  <script
+    defer
+    src="http://localhost:49235/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="http://localhost:49235/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://localhost:49235/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.124.1">
+
+  
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="http://localhost:49235/"
+      >Eason Li</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Effortlessly Manage Docker With Portainer: A Step by Step Guide</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Apr 14, 2024</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><p><strong>Portainer: A Web UI for Docker Management</strong></p>
+<p>Portainer is a web UI tool for Docker that allows you to manage Docker containers, Kubernetes clusters, and Docker Compose stacks all in one convenient interface. In this blog post, I&rsquo;ll show you how to install Portainer using Docker.</p>
+<p><strong>Prerequisites</strong></p>
+<ul>
+<li>Ensure Docker is installed and running on your system.</li>
+<li>You&rsquo;ll need root privileges to create the Docker volume.</li>
+<li>(Optional) Configure a firewall whitelist rule for Portainer&rsquo;s access (if applicable).</li>
+</ul>
+<p><strong>Installation Guide</strong></p>
+<ol>
+<li><strong>Create a Portainer Volume:</strong></li>
+</ol>
+<pre tabindex="0"><code>docker volume create portainer_data
+</code></pre><p>This command creates a Docker volume named <code>portainer_data</code> to store Portainer&rsquo;s persistent data.</p>
+<ol start="2">
+<li><strong>Run the Portainer Container:</strong></li>
+</ol>
+<pre tabindex="0"><code>docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+</code></pre><p>This command runs a Portainer container in detached mode (<code>-d</code>) and maps the container&rsquo;s ports to your host&rsquo;s ports:</p>
+<ul>
+<li><code>8000:8000</code> - Maps the container&rsquo;s port 8000 to the host&rsquo;s port 8000 (optional, for future use)</li>
+<li><code>9443:9443</code> - Maps the container&rsquo;s port 9443 (Portainer&rsquo;s UI) to the host&rsquo;s port 9443</li>
+</ul>
+<p>The <code>--name portainer</code> assigns a name to the container for easier management.</p>
+<p>The <code>--restart=always</code> option ensures Portainer automatically restarts if the system reboots.</p>
+<p>The <code>-v</code> flags mount two volumes:</p>
+<ul>
+<li><code>/var/run/docker.sock:/var/run/docker.sock</code> - Mounts the Docker socket from the host system to the container, allowing Portainer to interact with Docker.</li>
+<li><code>portainer_data:/data</code> - Mounts the <code>portainer_data</code> volume created earlier, allowing persistent storage of Portainer data.</li>
+</ul>
+<p><strong>Login and Configure Portainer</strong></p>
+<ol>
+<li>Access Portainer&rsquo;s web interface in your browser using the following URL, replacing <code>192.168.199.199</code> with your server&rsquo;s IP address or FQDN:</li>
+</ol>
+<pre tabindex="0"><code>https://192.168.199.199:9443
+</code></pre><blockquote>
+<p>By default, Portainer uses a self-signed SSL certificate, which may trigger a security warning in your browser. You can proceed by accepting the risk (not recommended for production environments) or configure a trusted certificate for Portainer.</p>
+</blockquote>
+<ol start="2">
+<li>
+<p>Create a username and a strong password for your Portainer account. You can change the password later if needed.</p>
+</li>
+<li>
+<p>Upon successful login, you should land on the Portainer homepage with a &ldquo;local&rdquo; environment.</p>
+</li>
+<li>
+<p>Click &ldquo;Local&rdquo; and then &ldquo;Live Connect&rdquo; to establish a connection to your local Docker daemon.</p>
+</li>
+</ol>
+<p>Now you&rsquo;re ready to use Portainer&rsquo;s web UI to deploy containers, manage stacks (Docker Compose), and perform other Docker-related tasks.</p>
+<blockquote>
+<p>Note: This blog post is written by Eason Li and edited by google bard.</p>
+</blockquote>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="http://localhost:49235/posts/how-to-setup-a-free-wordpress-website-with-infinityfree/"
+      ><span>How to setup a free wordpress website with infinityfree</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2024
+    <a class="link" href="http://localhost:49235/">Eason Li</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>
