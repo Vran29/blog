@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Eason Li</title>
-    <link>http://localhost:65163/posts/</link>
+    <link>https://example.org/posts/</link>
     <description>Recent content in Posts on Eason Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Apr 2024 13:02:04 +1000</lastBuildDate>
-    <atom:link href="http://localhost:65163/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Effortlessly Manage Docker With Portainer: A Step by Step Guide</title>
-      <link>http://localhost:65163/posts/effortlessly-manage-docker-with-portainer-a-step-by-step-guide/</link>
+      <link>https://example.org/posts/effortlessly-manage-docker-with-portainer-a-step-by-step-guide/</link>
       <pubDate>Sun, 14 Apr 2024 13:02:04 +1000</pubDate>
-      <guid>http://localhost:65163/posts/effortlessly-manage-docker-with-portainer-a-step-by-step-guide/</guid>
+      <guid>https://example.org/posts/effortlessly-manage-docker-with-portainer-a-step-by-step-guide/</guid>
       <description>Portainer: A Web UI for Docker Management&#xA;Portainer is a web UI tool for Docker that allows you to manage Docker containers, Kubernetes clusters, and Docker Compose stacks all in one convenient interface. In this blog post, I&amp;rsquo;ll show you how to install Portainer using Docker.&#xA;Prerequisites&#xA;Ensure Docker is installed and running on your system. You&amp;rsquo;ll need root privileges to create the Docker volume. (Optional) Configure a firewall whitelist rule for Portainer&amp;rsquo;s access (if applicable).</description>
     </item>
     <item>
       <title>How to setup a free wordpress website with infinityfree</title>
-      <link>http://localhost:65163/posts/how-to-setup-a-free-wordpress-website-with-infinityfree/</link>
+      <link>https://example.org/posts/how-to-setup-a-free-wordpress-website-with-infinityfree/</link>
       <pubDate>Sun, 14 Apr 2024 13:02:04 +1000</pubDate>
-      <guid>http://localhost:65163/posts/how-to-setup-a-free-wordpress-website-with-infinityfree/</guid>
+      <guid>https://example.org/posts/how-to-setup-a-free-wordpress-website-with-infinityfree/</guid>
       <description>In this blog post, I&amp;rsquo;m going to show you how to host a free WordPress website using InfinityFree.&#xA;Things you&amp;rsquo;ll need:&#xA;An email address A computer Some knowledge Things you might want to know:&#xA;Unlimited Bandwidth 5GB Disk Space 50000 daily hit limit No email account 30019 inodes limit Free ssl certificate 1. Sign Up for InfinityFree&#xA;First, open your email client and head over to the InfinityFree website (https://www.infinityfree.com/). Signing up is pretty straightforward.</description>
     </item>
     <item>
-      <title>Spice Up Your Terminal With Oh My Zsh</title>
-      <link>http://localhost:65163/posts/spice-up-your-terminal-with-oh-my-zsh/</link>
+      <title>Random Word API</title>
+      <link>https://example.org/posts/random-word-api/</link>
       <pubDate>Sun, 14 Apr 2024 13:02:04 +1000</pubDate>
-      <guid>http://localhost:65163/posts/spice-up-your-terminal-with-oh-my-zsh/</guid>
+      <guid>https://example.org/posts/random-word-api/</guid>
+      <description>I created a simple random word api To use it send a post request to this url:&#xA;http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX This includes the api key in the url. Please don&amp;rsquo;t spam it and only use it for personal use.</description>
+    </item>
+    <item>
+      <title>Spice Up Your Terminal With Oh My Zsh</title>
+      <link>https://example.org/posts/spice-up-your-terminal-with-oh-my-zsh/</link>
+      <pubDate>Sun, 14 Apr 2024 13:02:04 +1000</pubDate>
+      <guid>https://example.org/posts/spice-up-your-terminal-with-oh-my-zsh/</guid>
       <description>Oh My Zsh is an open-source, community-driven framework for managing your zsh configuration. - Oh My ZSH Github&#xA;In this blog post, I will guide you to install Oh My Zsh on your computer. Oh My Zsh allows you to customize your terminal prompt.&#xA;Pre-requisites: MacOS or Linux because Oh My Zsh works best on Unix-based systems (WSL will work) curl or wget Install zsh: Ubuntu/Debian: sudo apt install zsh Fedora: sudo yum install zsh Set zsh as default shell: chsh -s /bin/zsh Note: For some systems, you need to log out and log in again to take effect.</description>
     </item>
   </channel>

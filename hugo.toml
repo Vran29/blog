@@ -6,7 +6,7 @@ theme = "paper"
 [params]
   avatar = 'lyu63651@gmail.com'
   name = 'Eason Li'
-  bio = 'An Linux Expert'
+  bio = 'Full Time Linux Nerd'
   twitter = '404'
   github = 'eli32-vlc'
   rss = true
