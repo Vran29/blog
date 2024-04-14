@@ -2,3 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Eason Li'
 theme = "paper"
+
+[params]
+  avatar = 'lyu63651@gmail.com'
+  name = 'Eason Li'
+  bio = 'An Linux Expert'
