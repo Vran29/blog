@@ -62,3 +62,5 @@ Run `omz update` to update Oh My Zsh.
 For more information, take a look at their Github page: [Github](https://github.com/ohmyzsh/ohmyzsh)
 
 #### Thank you for reading!!
+
+> This blog post is writtin by Eason Li and edited by Google Bard.
