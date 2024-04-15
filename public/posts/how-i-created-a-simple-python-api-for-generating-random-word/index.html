@@ -54,7 +54,7 @@
   />
 
   
-  <title>Random Word API - Eason Li</title>
+  <title>How I Created A Simple Python API For Generating Random Word - Eason Li</title>
 
   
   <meta name="theme-color" />
@@ -63,9 +63,8 @@
   
   
   
-  <meta name="description" content="I created a simple random word api that will generate a random word upon request. To use this, send a post request to this url:
-http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX This URL inculdes the api key and no other configuration is needed.
-Please don&rsquo;t spam the api, it&rsquo;s hosted on a free server." />
+  <meta name="description" content="Context I created a simple Python API that generates a random word upon request. This project was inspired by Fireship&rsquo;s Node.js API video. I simply created this API for fun, not as a side hustle, and I made the API open-source on my GitHub page.
+Creating the API First, I searched YouTube and found a video about creating a simple API using Flask. I watched the video and followed along. Then, I asked ChatGPT to generate a list of words ordered alphabetically (A-Z)." />
   <meta name="author" content="Eason Li" />
   
 
@@ -125,33 +124,30 @@ Please don&rsquo;t spam the api, it&rsquo;s hosted on a free server." />
   
   
   
-  <meta itemprop="name" content="Random Word API">
-<meta itemprop="description" content="I created a simple random word api that will generate a random word upon request. To use this, send a post request to this url:
-http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX This URL inculdes the api key and no other configuration is needed.
-Please don&rsquo;t spam the api, it&rsquo;s hosted on a free server."><meta itemprop="datePublished" content="2024-04-15T13:02:04+10:00" />
+  <meta itemprop="name" content="How I Created A Simple Python API For Generating Random Word">
+<meta itemprop="description" content="Context I created a simple Python API that generates a random word upon request. This project was inspired by Fireship&rsquo;s Node.js API video. I simply created this API for fun, not as a side hustle, and I made the API open-source on my GitHub page.
+Creating the API First, I searched YouTube and found a video about creating a simple API using Flask. I watched the video and followed along. Then, I asked ChatGPT to generate a list of words ordered alphabetically (A-Z)."><meta itemprop="datePublished" content="2024-04-15T13:02:04+10:00" />
 <meta itemprop="dateModified" content="2024-04-15T13:02:04+10:00" />
-<meta itemprop="wordCount" content="49">
+<meta itemprop="wordCount" content="204">
 <meta itemprop="keywords" content="" />
   
-  <meta property="og:title" content="Random Word API" />
-<meta property="og:description" content="I created a simple random word api that will generate a random word upon request. To use this, send a post request to this url:
-http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX This URL inculdes the api key and no other configuration is needed.
-Please don&rsquo;t spam the api, it&rsquo;s hosted on a free server." />
+  <meta property="og:title" content="How I Created A Simple Python API For Generating Random Word" />
+<meta property="og:description" content="Context I created a simple Python API that generates a random word upon request. This project was inspired by Fireship&rsquo;s Node.js API video. I simply created this API for fun, not as a side hustle, and I made the API open-source on my GitHub page.
+Creating the API First, I searched YouTube and found a video about creating a simple API using Flask. I watched the video and followed along. Then, I asked ChatGPT to generate a list of words ordered alphabetically (A-Z)." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.eason.fr.to/posts/random-word-api/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://blog.eason.fr.to/posts/how-i-created-a-simple-python-api-for-generating-random-word/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-04-15T13:02:04+10:00" />
 <meta property="article:modified_time" content="2024-04-15T13:02:04+10:00" />
 
   
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Random Word API"/>
-<meta name="twitter:description" content="I created a simple random word api that will generate a random word upon request. To use this, send a post request to this url:
-http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX This URL inculdes the api key and no other configuration is needed.
-Please don&rsquo;t spam the api, it&rsquo;s hosted on a free server."/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How I Created A Simple Python API For Generating Random Word"/>
+<meta name="twitter:description" content="Context I created a simple Python API that generates a random word upon request. This project was inspired by Fireship&rsquo;s Node.js API video. I simply created this API for fun, not as a side hustle, and I made the API open-source on my GitHub page.
+Creating the API First, I searched YouTube and found a video about creating a simple API using Flask. I watched the video and followed along. Then, I asked ChatGPT to generate a list of words ordered alphabetically (A-Z)."/>
 
   
   
   
-  <link rel="canonical" href="https://blog.eason.fr.to/posts/random-word-api/" />
+  <link rel="canonical" href="https://blog.eason.fr.to/posts/how-i-created-a-simple-python-api-for-generating-random-word/" />
   
   
 </head>
@@ -266,7 +262,7 @@ Please don&rsquo;t spam the api, it&rsquo;s hosted on a free server."/>
 
 <article>
   <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">Random Word API</h1>
+    <h1 class="!my-0 pb-2.5">How I Created A Simple Python API For Generating Random Word</h1>
 
     
     <div class="text-sm antialiased opacity-60">
@@ -280,13 +276,18 @@ Please don&rsquo;t spam the api, it&rsquo;s hosted on a free server."/>
     
   </header>
 
-  <section><h3 id="i-created-a-simple-random-word-api-that-will-generate-a-random-word-upon-request">I created a simple random word api that will generate a random word upon request.</h3>
-<hr>
-<p>To use this, send a post request to this url:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>http://easapi.pythonanywhere.com/api?api_key<span style="color:#f92672">=</span>Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX
-</span></span></code></pre></div><p>This URL inculdes the api key and no other configuration is needed.</p>
+  <section><h3 id="context">Context</h3>
+<p>I created a simple Python API that generates a random word upon request. This project was inspired by Fireship&rsquo;s Node.js API video. I simply created this API for fun, not as a side hustle, and I made the API open-source on my GitHub page.</p>
+<h3 id="creating-the-api">Creating the API</h3>
+<p>First, I searched YouTube and found a video about creating a simple API using Flask. I watched the video and followed along. Then, I asked ChatGPT to generate a list of words ordered alphabetically (A-Z). Next, I created a Python variable to store the list of words. Finally, I replaced the emoji used in the video with the variable.</p>
+<h3 id="deployment">Deployment</h3>
+<p>It was time to deploy the API. I needed a free hosting option. I found some free choices like Cyclic.sh, but I ended up using PythonAnywhere.com because it&rsquo;s free and easy to use. I created an account, uploaded the code to the server, uploaded my code to GitHub, and wrote a README.md file to explain how to use the API. And that&rsquo;s it! I created a simple Python API for generating random words!</p>
 <blockquote>
-<p>Please don&rsquo;t spam the api, it&rsquo;s hosted on a free server.</p>
+<p>Here is the link to the <a href="https://github.com/eli32-vlc/api">GitHub repository</a></p>
+</blockquote>
+<h4 id="thanks-for-reading">Thanks for Reading!</h4>
+<blockquote>
+<p>This blog post is writtin by Eason and edited by Google Bard.</p>
 </blockquote>
 </section>
 
@@ -299,17 +300,11 @@ Please don&rsquo;t spam the api, it&rsquo;s hosted on a free server."/>
   
   <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
     
-    <a
-      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://blog.eason.fr.to/posts/how-i-created-a-simple-python-api-for-generating-random-word/"
-      ><span class="mr-1.5">←</span><span>How I Created A Simple Python API For Generating Random Word</span></a
-    >
-    
     
     <a
       class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://blog.eason.fr.to/posts/effortlessly-manage-docker-with-portainer-a-step-by-step-guide/"
-      ><span>Effortlessly Manage Docker With Portainer: A Step by Step Guide</span><span class="ml-1.5">→</span></a
+      href="https://blog.eason.fr.to/posts/random-word-api/"
+      ><span>Random Word API</span><span class="ml-1.5">→</span></a
     >
     
   </nav>

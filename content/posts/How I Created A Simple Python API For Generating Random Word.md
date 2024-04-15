@@ -1,7 +1,7 @@
 +++
 title = 'How I Created A Simple Python API For Generating Random Word'
 date = 2024-04-15T13:02:04+10:00
-draft = true
+draft = false
 +++
 
 ### Context

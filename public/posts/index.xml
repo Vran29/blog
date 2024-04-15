@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 15 Apr 2024 13:02:04 +1000</lastBuildDate>
     <atom:link href="https://blog.eason.fr.to/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>How I Created A Simple Python API For Generating Random Word</title>
+      <link>https://blog.eason.fr.to/posts/how-i-created-a-simple-python-api-for-generating-random-word/</link>
+      <pubDate>Mon, 15 Apr 2024 13:02:04 +1000</pubDate>
+      <guid>https://blog.eason.fr.to/posts/how-i-created-a-simple-python-api-for-generating-random-word/</guid>
+      <description>Context I created a simple Python API that generates a random word upon request. This project was inspired by Fireship&amp;rsquo;s Node.js API video. I simply created this API for fun, not as a side hustle, and I made the API open-source on my GitHub page.&#xA;Creating the API First, I searched YouTube and found a video about creating a simple API using Flask. I watched the video and followed along. Then, I asked ChatGPT to generate a list of words ordered alphabetically (A-Z).</description>
+    </item>
+    <item>
       <title>Random Word API</title>
       <link>https://blog.eason.fr.to/posts/random-word-api/</link>
       <pubDate>Mon, 15 Apr 2024 13:02:04 +1000</pubDate>
