@@ -16,7 +16,7 @@
       <description>Portainer: A Web UI for Docker Management&#xA;Portainer is a web UI tool for Docker that allows you to manage Docker containers, Kubernetes clusters, and Docker Compose stacks all in one convenient interface. In this blog post, I&amp;rsquo;ll show you how to install Portainer using Docker.&#xA;Prerequisites&#xA;Ensure Docker is installed and running on your system. You&amp;rsquo;ll need root privileges to create the Docker volume. (Optional) Configure a firewall whitelist rule for Portainer&amp;rsquo;s access (if applicable).</description>
     </item>
     <item>
-      <title>How to setup a free wordpress website with infinityfree</title>
+      <title>How To Setup A Free Wordpress Website With Infinityfree</title>
       <link>https://blog.eason.fr.to/posts/how-to-setup-a-free-wordpress-website-with-infinityfree/</link>
       <pubDate>Sun, 14 Apr 2024 13:02:04 +1000</pubDate>
       <guid>https://blog.eason.fr.to/posts/how-to-setup-a-free-wordpress-website-with-infinityfree/</guid>
@@ -27,7 +27,7 @@
       <link>https://blog.eason.fr.to/posts/random-word-api/</link>
       <pubDate>Sun, 14 Apr 2024 13:02:04 +1000</pubDate>
       <guid>https://blog.eason.fr.to/posts/random-word-api/</guid>
-      <description>I created a simple random word api To use it send a post request to this url:&#xA;http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX This includes the api key in the url. Please don&amp;rsquo;t spam it and only use it for personal use.</description>
+      <description>I created a simple random word api that will generate a random word upon request. To use this, send a post request to this url:&#xA;http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX This URL inculdes an api key no other configuration is needed.&#xA;Please don&amp;rsquo;t spam the api, it&amp;rsquo;s hosted on a free server. </description>
     </item>
     <item>
       <title>Spice Up Your Terminal With Oh My Zsh</title>

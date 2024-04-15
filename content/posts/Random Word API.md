@@ -4,14 +4,16 @@ date = 2024-04-14T13:02:04+10:00
 draft = false
 +++
 
-### I created a simple random word api
+### I created a simple random word api that will generate a random word upon request.
 
 ---
 
-To use it send a post request to this url:
+To use this, send a post request to this url:
 
 ```shell
 http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX
 ```
 
-This includes the api key in the url. Please don't spam it and only use it for personal use.
+This URL inculdes an api key no other configuration is needed.
+
+> ##### Please don't spam the api, it's hosted on a free server.

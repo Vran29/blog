@@ -1,5 +1,5 @@
 +++
-title = 'How to setup a free wordpress website with infinityfree'
+title = 'How To Setup A Free Wordpress Website With Infinityfree'
 date = 2024-04-14T13:02:04+10:00
 draft = false
 +++
