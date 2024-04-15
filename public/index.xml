@@ -6,8 +6,15 @@
     <description>Recent content on Eason Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Apr 2024 13:02:04 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 13:02:04 +1000</lastBuildDate>
     <atom:link href="https://blog.eason.fr.to/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Random Word API</title>
+      <link>https://blog.eason.fr.to/posts/random-word-api/</link>
+      <pubDate>Mon, 15 Apr 2024 13:02:04 +1000</pubDate>
+      <guid>https://blog.eason.fr.to/posts/random-word-api/</guid>
+      <description>I created a simple random word api that will generate a random word upon request. To use this, send a post request to this url:&#xA;http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX This URL inculdes the api key and no other configuration is needed.&#xA;Please don&amp;rsquo;t spam the api, it&amp;rsquo;s hosted on a free server.</description>
+    </item>
     <item>
       <title>Effortlessly Manage Docker With Portainer: A Step by Step Guide</title>
       <link>https://blog.eason.fr.to/posts/effortlessly-manage-docker-with-portainer-a-step-by-step-guide/</link>
@@ -21,13 +28,6 @@
       <pubDate>Sun, 14 Apr 2024 13:02:04 +1000</pubDate>
       <guid>https://blog.eason.fr.to/posts/how-to-setup-a-free-wordpress-website-with-infinityfree/</guid>
       <description>In this blog post, I&amp;rsquo;m going to show you how to host a free WordPress website using InfinityFree.&#xA;Things you&amp;rsquo;ll need:&#xA;An email address A computer Some knowledge Things you might want to know:&#xA;Unlimited Bandwidth 5GB Disk Space 50000 daily hit limit No email account 30019 inodes limit Free ssl certificate 1. Sign Up for InfinityFree&#xA;First, open your email client and head over to the InfinityFree website (https://www.infinityfree.com/). Signing up is pretty straightforward.</description>
-    </item>
-    <item>
-      <title>Random Word API</title>
-      <link>https://blog.eason.fr.to/posts/random-word-api/</link>
-      <pubDate>Sun, 14 Apr 2024 13:02:04 +1000</pubDate>
-      <guid>https://blog.eason.fr.to/posts/random-word-api/</guid>
-      <description>I created a simple random word api that will generate a random word upon request. To use this, send a post request to this url:&#xA;http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX This URL inculdes the api key and no other configuration is needed.&#xA;Please don&amp;rsquo;t spam the api, it&amp;rsquo;s hosted on a free server.</description>
     </item>
     <item>
       <title>Spice Up Your Terminal With Oh My Zsh</title>
