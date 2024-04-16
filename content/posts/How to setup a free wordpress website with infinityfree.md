@@ -2,6 +2,9 @@
 title = 'How To Setup A Free Wordpress Website With Infinityfree'
 date = 2024-04-14T13:02:04+10:00
 draft = false
+[params]
+  author = 'Eason Li'
+  description = 'How to setup a free Wordpress website with Infinityfree.'
 +++
 
 **In this blog post, I'm going to show you how to host a free WordPress website using InfinityFree.**

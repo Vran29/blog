@@ -2,6 +2,9 @@
 title = 'Effortlessly Manage Docker With Portainer: A Step by Step Guide'
 date = 2024-04-14T13:02:04+10:00
 draft = false
+[params]
+  author = 'Eason Li'
+  description = 'How to install Portainer using Docker. Portainer is a web UI tool for Docker that allows you to manage Docker containers, Kubernetes clusters, and Docker Compose stacks all in one convenient interface.'
 +++
 
 **Portainer: A Web UI for Docker Management**
