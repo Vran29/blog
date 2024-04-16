@@ -8,7 +8,7 @@ draft = false
 
 ---
 
-To use this, send a post request to this url:
+To use this, send a GET request to this url:
 
 ```shell
 http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8LhT95AIRtLDj6CkHLmQm7nnOorUWaqn7ASABJVtDpOsCAsKpZNtRVo3exppbpL99x5cstbYugMmK0FyUBJNjePULoty7YiX
