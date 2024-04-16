@@ -4,7 +4,7 @@ date = 2024-04-15T13:02:04+10:00
 draft = false
 [params]
   author = 'Eason Li'
-  description = 'How I created a simple Python API for generating random words. No node.js required.'
+  description = 'How I created a simple Python API for generating random words. No node.js required. Hosted on pythonanywhere.com for free.'
 +++
 
 ### Context

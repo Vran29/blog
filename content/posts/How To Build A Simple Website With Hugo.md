@@ -4,7 +4,7 @@ date = 2024-04-16T13:02:04+10:00
 draft = false
 [params]
   author = 'Eason Li'
-  description = 'How to build a simple website with Hugo.'
+  description = 'How to build a simple website with Hugo. Hugo is a static site generator written in Go. Its famous for its speed and user-friendliness.'
 +++
 
 ### Introduction

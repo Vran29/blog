@@ -4,7 +4,7 @@ date = 2024-04-14T13:02:04+10:00
 draft = false
 [params]
   author = 'Eason Li'
-  description = 'How to setup a oh my zsh to spice up your terminal.'
+  description = 'How to setup a oh my zsh to spice up your terminal. Oh My Zsh is an open-source, community-driven framework for managing your zsh configuration.'
 +++
 
 > Oh My Zsh is an open-source, community-driven framework for managing your [zsh](https://www.zsh.org/) configuration. - Oh My ZSH Github
