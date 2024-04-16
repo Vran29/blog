@@ -74,7 +74,7 @@ git submodule add https://github.com/526avijitgupta/gokarna.git themes/gokarna
 
 ### Step 6: Setup Hugo
 
-First, open the folder in a text/code editor and locate the config.toml file. You'll find something like this:
+First, open the folder in a text/code editor and locate the hugo.toml file. You'll find something like this:
 
 ![config.toml](https://i.ibb.co/TmvVfMx/Xnip2024-04-16-18-37-35.jpg)
 
@@ -89,7 +89,7 @@ theme = "gokarna"
 #### Start the Hugo server:
 
 ```shell
-hugo server -D
+hugo server
 ```
 
 Open the URL displayed in the terminal to view your website.
