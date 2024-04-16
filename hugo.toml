@@ -2,6 +2,7 @@ baseURL = 'https://blog.eason.fr.to/'
 languageCode = 'en-us'
 title = 'Eason Li'
 theme = "paper"
+disqusShortname = 'easonli'
 enableRobotsTXT = false
 
 [params]
