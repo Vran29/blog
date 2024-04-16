@@ -17,3 +17,4 @@ http://easapi.pythonanywhere.com/api?api_key=Il3KG8LWRwtJ2bMFWT3bpvlMZS1vitJf8Lh
 This URL inculdes the api key and no other configuration is needed.
 
 > Please don't spam the api, it's hosted on a free server.
+> More server will be added soon.
