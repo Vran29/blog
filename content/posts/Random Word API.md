@@ -2,9 +2,9 @@
 title = 'Random Word API'
 date = 2024-04-15T13:02:04+10:00
 draft = false
+description = 'Simple random word API using Python with Flask.'
 [params]
   author = 'Eason Li'
-  description = 'Simple random word API using Python with Flask.'
 +++
 
 ### I created a simple random word api that will generate a random word upon request.
