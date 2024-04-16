@@ -2,6 +2,7 @@ baseURL = 'https://blog.eason.fr.to/'
 languageCode = 'en-us'
 title = 'Eason Li'
 theme = "paper"
+enableRobotsTXT = true
 
 [params]
   avatar = 'lyu63651@gmail.com'

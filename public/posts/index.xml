@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Eason Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2024 13:02:04 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Apr 2024 13:02:04 +1000</lastBuildDate>
     <atom:link href="https://blog.eason.fr.to/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Build A Simple Website With Hugo</title>
+      <link>https://blog.eason.fr.to/posts/how-to-build-a-simple-website-with-hugo/</link>
+      <pubDate>Tue, 16 Apr 2024 13:02:04 +1000</pubDate>
+      <guid>https://blog.eason.fr.to/posts/how-to-build-a-simple-website-with-hugo/</guid>
+      <description>Introduction In this blog post, I&amp;rsquo;ll demonstrate how to construct a basic website using Hugo. For those unfamiliar, Hugo is a static site generator written in Go, known for its speed and user-friendliness. It&amp;rsquo;s versatile enough to create anything from straightforward blogs to intricate websites. As an example, this very blog post you&amp;rsquo;re reading is crafted using Hugo with the Paper theme.&#xA;Prerequisites Before we dive in, ensure you have the following:</description>
+    </item>
     <item>
       <title>How I Created A Simple Python API For Generating Random Word</title>
       <link>https://blog.eason.fr.to/posts/how-i-created-a-simple-python-api-for-generating-random-word/</link>
