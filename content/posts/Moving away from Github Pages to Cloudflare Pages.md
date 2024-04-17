@@ -1,6 +1,6 @@
 +++
 title = 'Moving away from Github Pages to Cloudflare Pages'
-date = 2024-04-14T13:02:04+10:00
+date = 2024-04-17T13:02:04+10:00
 draft = true
 [params]
   author = 'Eason Li'
