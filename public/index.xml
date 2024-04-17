@@ -6,8 +6,15 @@
     <description>Recent content on Eason Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Apr 2024 13:02:04 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Apr 2024 13:02:04 +1000</lastBuildDate>
     <atom:link href="https://blog.eason.fr.to/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moving away from Github Pages to Cloudflare Pages</title>
+      <link>https://blog.eason.fr.to/posts/moving-away-from-github-pages-to-cloudflare-pages/</link>
+      <pubDate>Wed, 17 Apr 2024 13:02:04 +1000</pubDate>
+      <guid>https://blog.eason.fr.to/posts/moving-away-from-github-pages-to-cloudflare-pages/</guid>
+      <description>Context For almost all of my projects, I have been using GitHub Pages because it nicely integrates with GitHub. However, for some of my projects, GitHub Pages are just not sufficient. With GitHub Pages, there is a cap of 100 GB bandwidth per month and 1 GB storage, which is inadequate for some of my projects. Therefore, I decided to migrate to Cloudflare Pages.&#xA;Why Cloudflare Pages? My website is powered by Cloudflare, obviously.</description>
+    </item>
     <item>
       <title>How To Build A Simple Website With Hugo</title>
       <link>https://blog.eason.fr.to/posts/how-to-build-a-simple-website-with-hugo/</link>

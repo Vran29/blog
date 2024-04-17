@@ -1,0 +1,355 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Moving away from Github Pages to Cloudflare Pages - Eason Li</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="Context For almost all of my projects, I have been using GitHub Pages because it nicely integrates with GitHub. However, for some of my projects, GitHub Pages are just not sufficient. With GitHub Pages, there is a cap of 100 GB bandwidth per month and 1 GB storage, which is inadequate for some of my projects. Therefore, I decided to migrate to Cloudflare Pages.
+Why Cloudflare Pages? My website is powered by Cloudflare, obviously." />
+  <meta name="author" content="Eason Li" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://blog.eason.fr.to/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://blog.eason.fr.to/theme.png" />
+
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/2b69b0fad4032dbef5cef82772fe16de?s=160&amp;d=identicon" />
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="https://blog.eason.fr.to/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://blog.eason.fr.to/github.svg" />
+  
+  
+
+  
+  
+  <script
+    defer
+    src="https://blog.eason.fr.to/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="https://blog.eason.fr.to/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://blog.eason.fr.to/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.124.1">
+
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="Moving away from Github Pages to Cloudflare Pages">
+<meta itemprop="description" content="Context For almost all of my projects, I have been using GitHub Pages because it nicely integrates with GitHub. However, for some of my projects, GitHub Pages are just not sufficient. With GitHub Pages, there is a cap of 100 GB bandwidth per month and 1 GB storage, which is inadequate for some of my projects. Therefore, I decided to migrate to Cloudflare Pages.
+Why Cloudflare Pages? My website is powered by Cloudflare, obviously."><meta itemprop="datePublished" content="2024-04-17T13:02:04+10:00" />
+<meta itemprop="dateModified" content="2024-04-17T13:02:04+10:00" />
+<meta itemprop="wordCount" content="269">
+<meta itemprop="keywords" content="" />
+  
+  <meta property="og:title" content="Moving away from Github Pages to Cloudflare Pages" />
+<meta property="og:description" content="Context For almost all of my projects, I have been using GitHub Pages because it nicely integrates with GitHub. However, for some of my projects, GitHub Pages are just not sufficient. With GitHub Pages, there is a cap of 100 GB bandwidth per month and 1 GB storage, which is inadequate for some of my projects. Therefore, I decided to migrate to Cloudflare Pages.
+Why Cloudflare Pages? My website is powered by Cloudflare, obviously." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.eason.fr.to/posts/moving-away-from-github-pages-to-cloudflare-pages/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-17T13:02:04+10:00" />
+<meta property="article:modified_time" content="2024-04-17T13:02:04+10:00" />
+
+  
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Moving away from Github Pages to Cloudflare Pages"/>
+<meta name="twitter:description" content="Context For almost all of my projects, I have been using GitHub Pages because it nicely integrates with GitHub. However, for some of my projects, GitHub Pages are just not sufficient. With GitHub Pages, there is a cap of 100 GB bandwidth per month and 1 GB storage, which is inadequate for some of my projects. Therefore, I decided to migrate to Cloudflare Pages.
+Why Cloudflare Pages? My website is powered by Cloudflare, obviously."/>
+
+  
+  
+  
+  <link rel="canonical" href="https://blog.eason.fr.to/posts/moving-away-from-github-pages-to-cloudflare-pages/" />
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="https://blog.eason.fr.to/"
+      >Eason Li</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:ml-12 lg:mt-0 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/404"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/eli32-vlc"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Moving away from Github Pages to Cloudflare Pages</h1>
+
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Apr 17, 2024</time>
+      
+      
+      
+      
+      <span class="mx-1">&middot;</span>
+      <span>Eason Li</span>
+      
+    </div>
+    
+  </header>
+
+  <section><h3 id="context">Context</h3>
+<p>For almost all of my projects, I have been using GitHub Pages because it nicely integrates with GitHub. However, for some of my projects, GitHub Pages are just not sufficient. With GitHub Pages, there is a cap of 100 GB bandwidth per month and 1 GB storage, which is inadequate for some of my projects. Therefore, I decided to migrate to Cloudflare Pages.</p>
+<h3 id="why-cloudflare-pages">Why Cloudflare Pages?</h3>
+<p>My website is powered by Cloudflare, obviously. Cloudflare Pages is significantly faster since it uses Cloudflare&rsquo;s global network. Cloudflare has CDN servers all around the world. If you don&rsquo;t know what CDN is, it stands for Content Delivery Network. It&rsquo;s a network of servers that deliver websites based on the user&rsquo;s location. Cloudflare Pages also offers unlimited bandwidth and 500 builds per month for free. 500 builds a month is somewhat limited since I publish content every day and like to change settings to experiment with my website. But it&rsquo;s still better than Github Pages.</p>
+<h3 id="other-alternatives">Other alternatives?</h3>
+<p>Sometimes I use Netlify. Netlify is also a JAMStack platform for deploying static websites. I don&rsquo;t use Netlify as much as Cloudflare Pages because Netlify has a limit of 500GB bandwidth per month. For some small projects, I use Netlify. One of the reasons I use Netlify is because it includes a feature called Netlify Forms. It allows you to create forms using only HTML, and Netlify will handle the backend for you. It&rsquo;s a great feature for static websites.</p>
+<p>Thank you for reading! I hope you find this article helpful. If you have any questions, feel free to ask me in the comments below.</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
+      href="https://blog.eason.fr.to/posts/how-to-build-a-simple-website-with-hugo/"
+      ><span>How To Build A Simple Website With Hugo</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+  <div class="mt-24" id="disqus_thread"></div>
+  <script>
+    const disqusShortname = 'easonli';
+    const script = document.createElement('script');
+    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
+    script.setAttribute('data-timestamp', +new Date());
+    document.head.appendChild(script);
+  </script>
+  
+
+  
+  
+
+  
+
+
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2024
+    <a class="link" href="https://blog.eason.fr.to/">Eason Li</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
+</footer>
+
+  </body>
+</html>
