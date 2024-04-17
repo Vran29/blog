@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Eason Li'
 theme = "paper"
 disqusShortname = 'easonli'
-enableRobotsTXT = false
+enableRobotsTXT = true
 
 [params]
   avatar = 'lyu63651@gmail.com'
