@@ -17,6 +17,6 @@ My website is powered by Cloudflare, obviously. Cloudflare Pages is significantl
 
 ### Other alternatives?
 
-Sometimes I use Netlify. Netlify is also a JAMStack platform for deploying static websites. I don't use Netlify as much as Cloudflare Pages because Netlify has a limit of 500GB bandwidth per month. For some small projects, I use Netlify. One of the reasons I use Netlify is because it includes a feature called Netlify Forms. It allows you to create forms using only HTML, and Netlify will handle the backend for you. It's a great feature for static websites.
+Sometimes I use Netlify. Netlify is also a JAMStack platform for deploying static websites. I don't use Netlify as much as Cloudflare Pages because Netlify has a limit of 100GB bandwidth per month. For some small projects, I use Netlify. One of the reasons I use Netlify is because it includes a feature called Netlify Forms. It allows you to create forms using only HTML, and Netlify will handle the backend for you. It's a great feature for static websites.
 
 Thank you for reading! I hope you find this article helpful. If you have any questions, feel free to ask me in the comments below.
