@@ -7,7 +7,7 @@ draft = false
   description = 'Simple random word API using Python with Flask. No Api key required. Unlimited requests.'
 +++
 
-### I created a simple random word api that will generate a random word upon request.
+### Random word API for generating random word.
 
 ---
 
