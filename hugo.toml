@@ -1,11 +1,11 @@
 baseURL = 'https://blog.eason.fr.to/'
 languageCode = 'en-us'
-title = 'Vran'
+title = 'Vran29'
 theme = "paper"
 enableRobotsTXT = true
 
 [params]
   avatar = 'franvuc@gmail.com'
-  name = 'Vran'
+  name = 'Vran29'
   bio = 'Author'
   github = 'Vran29'
