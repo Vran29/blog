@@ -1,13 +1,11 @@
 baseURL = 'https://blog.eason.fr.to/'
 languageCode = 'en-us'
-title = 'Eason Li'
+title = 'Vran'
 theme = "paper"
-disqusShortname = 'easonli'
 enableRobotsTXT = true
 
 [params]
-  avatar = 'lyu63651@gmail.com'
-  name = 'Eason Li'
-  bio = 'Writer'
-  twitter = '404'
-  github = 'eli32-vlc'
+  avatar = 'franvuc@gmail.com'
+  name = 'Vran'
+  bio = 'Author'
+  github = 'Vran29'
