@@ -1,14 +1,12 @@
 +++
+categories = ['First']
+tags = ['First']
 title = 'My first post c:'
 date = 2024-06-30T06:43:56+02:00
 draft = false
 [params]
   author = 'Vran29'
   description = 'Just my first post!'
-
-[taxonomies]
-  category = 'First'
-  tag = 'First'
 +++
 
 Elo this is my first test blog post!
