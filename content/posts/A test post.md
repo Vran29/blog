@@ -5,6 +5,10 @@ draft = false
 [params]
   author = 'Vran29'
   description = 'Just my first post!'
+
+[taxonomies]
+  category = 'First'
+  tag = 'First'
 +++
 
 Elo this is my first test blog post!
